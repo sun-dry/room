@@ -1,0 +1,242 @@
+body{
+    background-color: #FFF8E7;
+    overflow-x: hidden;
+    position: relative;
+}
+header{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     height: 5%;
+}
+.head{
+    width: 50px;
+    padding: 30px;
+}
+.mrc{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 100px 0;
+    padding: 0;
+}
+.bbb{
+    display: flex;
+    gap: 50px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 800;
+    color: #005E09;
+    margin-bottom: 50px;
+}
+.m-img{
+    width: 800px;
+    height: 500px;
+    /*background-color: #005E09;*/
+}
+img{
+    max-width: 800px;
+}
+.op, .od{
+    display: grid;
+    gap: 50px;
+}
+.opp1{
+    font-size: 25px;
+    font-weight: 800;
+    color: #005E09;
+    margin-top: 50px;
+}
+.opp2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #005E09;
+    margin: 0 0 50px 0;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    background-color: #FFF8E7;
+    border: 2px solid #005E09;
+    color: #005E09;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+textarea{
+    font-family: 'SF Compact Display', -apple-system, sans-serif;
+    width: 300px;
+    height: 50px;
+    background-color: #FFF8E7;
+    border: 2px solid #005E09;
+    color: #005E09;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+select{
+    font-family: 'SF Compact Display', -apple-system, sans-serif;
+    width: 320px;
+    height: 70px;
+    background-color: #FFF8E7;
+    border: 2px solid #005E09;
+    color: #005E09;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+input[type="checkbox"]{
+    width: 70px;
+    height: 70px;
+    color: #005E09;
+    appearance: none;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked{
+    content: url("../sdr.svg");
+    color: #005E09;
+    width: 70px;
+    height: 70px;
+}
+
+input[type="checkbox"] + label {
+    margin-left: 30px;
+}
+
+label {
+    color: #005E09;
+    font-weight: 500;
+    width: 320px;
+    height: 70px;
+}
+
+label > input[type="checkbox"] {
+    display: inline-flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.order{
+    display: flex;
+    gap: 50px;
+}
+
+.order div{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    background-color: #005E09;
+    color: #FFF8E7;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF8E7;
+}
+
+
+/* 반응형 */
+
+@media screen and (max-width: 500px) {
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .m-img{
+        width: 350px;
+        height: 218.75px;
+    }
+
+
+    img{
+        max-width: 350px;
+    }
+
+    .mrc{
+        gap: 5px;
+    }
+
+    .op, .od{
+        display: grid;
+        gap: 40px;
+    }
+
+    label {
+        width: 150px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .bbb{
+        display: flex;
+        gap: 30px;
+    }
+
+    .order{
+        gap: 20px;
+    }
+
+    .order div{
+        width: 150px;
+        height: 35px;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    input[type="checkbox"] {
+        width: 30px;
+        height: 30px;
+    }
+
+    input[type="checkbox"]:checked{
+        width: 30px;
+        height: 30px;
+    }
+
+    input{
+        width: 150px;
+        height: 35px;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    textarea{
+        font-family: 'SF Compact Display', -apple-system, sans-serif;
+        width: 150px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    select{
+        font-family: 'SF Compact Display', -apple-system, sans-serif;
+        height: 50px;
+        width: 165px;
+        font-size: 13px;
+        padding: 3px;
+    }
+
+    label > input[type="checkbox"] {
+        margin: 10px;
+        justify-content: center;
+    }
+
+    #long{
+        width: 320px;
+    }
+
+}
