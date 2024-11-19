@@ -125,7 +125,7 @@
 
 <script>
     document.getElementById('copy').addEventListener('click', () => {
-        // 입력 값 수집
+        
         const nameText = document.getElementById('name-text').innerText;
         const title = document.querySelector('input[placeholder="제목"]').value;
         const author = document.querySelector('input[placeholder="작가명"]').value;
@@ -144,7 +144,6 @@
             .join(', ');
         const otherRequests = document.getElementById('long').value;
 
-        // 텍스트 생성
         const result = `
         레디메이드 이름: ${nameText}
 
@@ -171,7 +170,6 @@
         기타 요구 사항: ${otherRequests || '없음'}
         `;
 
-        // 텍스트 복사
         navigator.clipboard.writeText(result).then(() => {
             alert('내용이 복사되었습니다!');
         }).catch((err) => {
