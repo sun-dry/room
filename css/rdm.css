@@ -170,3 +170,16 @@ section{
         padding: 30px;
     }
 }
+
+@media screen and (max-width: 400px) {
+
+    .r-box div{
+        width: 100px;
+        height: 100px;
+    }
+
+    .e-box div{
+        width: 100px;
+        height: 100px;
+    }
+}
