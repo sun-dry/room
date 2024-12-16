@@ -10,8 +10,16 @@ header{
      height: 5%;
 }
 .head{
-    width: 50px;
+    width: 100%;
     padding: 30px;
+}
+.bck-btn{
+    width: 50px;
+    transition: transform 0.5s ease-in-out;
+    margin: 30px 0 0 40px;
+}
+.bck-btn:hover{
+    transform: rotate(20deg);
 }
 .mrc{
     width: 100%;
@@ -157,6 +165,10 @@ a{
         overflow-x: hidden;
     }
 
+    .bck-btn{
+        margin: 0;
+    }
+
     .m-img{
         width: 350px;
         height: 218.75px;
@@ -240,3 +252,4 @@ a{
     }
 
 }
+
