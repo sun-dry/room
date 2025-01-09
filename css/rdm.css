@@ -57,11 +57,9 @@ section{
 
 .rc{
     display: grid;
-    gap: 30px;
 }
 .r-box{
     display: flex;
-    gap: 30px;
 }
 .r-box div{
     display: flex;
@@ -72,7 +70,7 @@ section{
 
 .ec{
     display: grid;
-    padding: 50px;
+    gap: 10px;
 }
 
 .p1, .p2{
@@ -84,7 +82,6 @@ section{
 
 .e-box{
     display: flex;
-    gap: 30px;
 }
 .e-box div{
     display: flex;
