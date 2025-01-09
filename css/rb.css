@@ -160,6 +160,14 @@ a{
 
 @media screen and (max-width: 500px) {
 
+    .name{
+        font-size: 20px;
+    }
+
+    .opp1{
+        font-size: 20px;
+    }
+
     body{
         width: 100%;
         overflow-x: hidden;
