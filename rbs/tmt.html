@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNDRYROOM</title>
+    <link rel="icon" type="image/svg+xml" href="../sdr.svg" />
+    <link rel="stylesheet" href="../css/def.css">
+    <link rel="stylesheet" href="../css/rb.css">
+</head>
+<body>
+<header>
+    <div class="head">
+        <a href="../rdm.html"><img class="bck-btn" src="../sdr.svg"></a>
+    </div>
+</header>
+<div class="mrc">
+    <p class="name" id="name-text">토마토즙 / 40,000</p>
+    <div class="m-img"><img src="../img/tmt-m.png"></div>
+    <div class="op">
+        <p class="opp1">사양 / 옵션</p>
+        <div class="bbb">
+            <p class="opp2">
+                앞/뒷표지 | 책등(무지) | 기본 목업(선택 사항)<br />
+                A5(148*210)<br />
+                CMYK | 300dpi | JPG/PDF/PSD
+            </p>
+        </div>
+        <div class="bbb">
+            <label for="bs">
+                <select id="bs">
+                    <option value="A5 (148mm x 210mm)">A5(148mm x 210mm)</option>
+                    <option value="A4 (210mm x 297mm)">A4(210mm x 297mm) [+0.5]</option>
+                    <option value="A6 (105mm x 148mm)">A6(105mm x 148mm) [+0.5]</option>
+                    <option value="B5 (176mm x 250mm)">B5(176mm x 250mm) [+0.5]</option>
+                    <option value="B6 (128mm x 182mm)">B6(128mm x 182mm) [+0.5]</option>
+                    <option value="B7 (91mm x 128mm)">B7(91mm x 128mm) [+0.5]</option>
+                    <option value="기타 판형">기타 판형(요청 사항에 기재해주세요.)</option>
+                </select>
+            </label>
+            <label for="cb1">
+                <input type="checkbox" id="cb1"> 인포 작업 [+0.3]
+            </label>
+        </div>
+        <div class="bbb">
+            <label for="cb2">
+                <input type="checkbox" id="cb2"> 표제지 [+0.5]
+            </label>
+            <label for="cb3">
+                <input type="checkbox" id="cb3"> 비공개 [+50%]
+            </label>
+        </div>
+        <div class="bbb">
+            <label for="bw">
+                <select id="bw">
+                    <option value="X">책날개 X</option>
+                    <option value="무지 책날개">무지 책날개 [+0.2]</option>
+                    <option value="디자인 책날개">디자인 책날개 [+0.8]</option>
+                </select>
+            </label>
+            <label for="ae">
+                <select id="ae">
+                    <option value="X">후가공 X</option>
+                    <option value="박">박 [+0.5]</option>
+                    <option value="에폭시">에폭시 [+0.5]</option>
+                    <option value="형압">형압 [+0.5]</option>
+                    <option value="기타 후가공">기타 후가공(요청 사항에 기재해주세요.)</option>
+                </select>
+            </label>
+        </div>
+        <p class="opp1">주문서</p>
+        <div class="bbb">
+            <label>
+                <input type="text" id="title" placeholder="제목">
+            </label>
+            <label>
+                <input type="text" id="author" placeholder="작가명">
+            </label>
+        </div>
+        <div class="bbb">
+            <label>
+                <input type="text" id="depositor" placeholder="입금자명">
+            </label>
+            <label>
+                <input type="text" id="contact" placeholder="연락망(이메일/트위터)">
+            </label>
+        </div>
+        <div class="bbb">
+            <label>
+                <input type="text" id="purpose" placeholder="용도, 인쇄 부수">
+            </label>
+            <label>
+                <input type="text" id="spine-length" placeholder="책등 길이">
+            </label>
+        </div>
+        <div class="bbb">
+            <label>
+                <input type="text" id="flap-length" placeholder="책날개 길이">
+            </label>
+            <label>
+                <input type="text" id="deadline" placeholder="필요 마감 날짜">
+            </label>
+        </div>
+        <div class="bbb">
+            <label for="file">
+                <select id="file">
+                    <option value="JPG">JPG</option>
+                    <option value="PDF">PDF</option>
+                    <option value="PSD">PSD</option>
+                </select>
+            </label>
+            <label>
+                <input type="text" id="printer" placeholder="인쇄소">
+            </label>
+        </div>
+        <div>
+            <label>
+                <textarea id="long" rows="4" cols="50" placeholder="기타 요구 사항"></textarea>
+            </label>
+        </div>
+        <div class="order">
+            <div id="copy">복사</div>
+            <a href="https://open.kakao.com/me/sundryroom"><div class="opc">오픈 채팅</div></a>
+        </div>
+    </div>
+</div>
+
+<script src="../js/cb.js"></script>
+
+</body>
+</html>
