@@ -62,6 +62,9 @@ img{
         font-size: 12px;
     }
 
+    .mrc{
+        gap: 30px;
+    }
 
     img{
         max-width: 350px;
