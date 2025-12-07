@@ -1,5 +1,6 @@
 body{
-    background-color: #005E09;
+    /* background-color: #005E09; */
+    background-color: #FFF;
 }
 .main{
     position: relative;
@@ -142,5 +143,6 @@ article{
         top: 20%;
         left: 10%;
     }
+
 
 }
